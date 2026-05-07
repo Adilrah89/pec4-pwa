@@ -15,7 +15,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/pec4-pwa-breweries",
+            "outputPath": "dist",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -31,6 +31,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/pec4-pwa/",
               "budgets": [
                 { "type": "initial", "maximumWarning": "500kB", "maximumError": "1MB" },
                 { "type": "anyComponentStyle", "maximumWarning": "2kB", "maximumError": "4kB" }
@@ -68,6 +69,6 @@
     }
   },
   "cli": {
-    "analytics": "368d9d4d-137b-40a2-865a-8217406966d6"
+    "analytics": "9058b43c-725a-4a21-81b9-ac6a6b01dd4f"
   }
 }
