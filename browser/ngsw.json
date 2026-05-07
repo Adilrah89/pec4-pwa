@@ -1,0 +1,85 @@
+{
+  "configVersion": 1,
+  "timestamp": 1778147294713,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/chunk-3IASZ4EE.js",
+        "/chunk-53D2FV4F.js",
+        "/chunk-KHB7UJPC.js",
+        "/chunk-KSW6HE3B.js",
+        "/chunk-NT3XIO5A.js",
+        "/index.html",
+        "/main-R2LR3CRY.js",
+        "/manifest.webmanifest",
+        "/polyfills-5CFQRCPP.js",
+        "/styles-J4O2AL33.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "breweries-api",
+      "patterns": [
+        "https:\\/\\/api\\.openbrewerydb\\.org\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 7200000,
+      "timeoutMs": 3000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/chunk-3IASZ4EE.js": "67e47d40bd31c29aa02f2490818d4725f88e42a4",
+    "/chunk-53D2FV4F.js": "44918949fe69011db7d0175ced6e9b5fd5de39f8",
+    "/chunk-KHB7UJPC.js": "00bcca2f5e312a74ad68f88ae4673aeeaffbf11e",
+    "/chunk-KSW6HE3B.js": "64e4b95a24ba3d39cb3e7eb3f7c744ddd226ebad",
+    "/chunk-NT3XIO5A.js": "9fefe1a4d77e62624d5915d4c34fb85bd669b442",
+    "/index.html": "15c58d0147360040a5e7502aaf7541990152699e",
+    "/main-R2LR3CRY.js": "c5ccb1e8432dd4a116cbf0a72e1db302be70821e",
+    "/manifest.webmanifest": "f000db2b13ffbb52cb8030f71c391b1ebe4ef5ce",
+    "/polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
+    "/styles-J4O2AL33.css": "631ee61df9c952df7c4ce05ace2b2716f1a10f8a"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
